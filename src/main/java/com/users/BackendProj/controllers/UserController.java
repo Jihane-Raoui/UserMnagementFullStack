@@ -21,7 +21,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.users.BackendProj.models.Utilisateur;
 import com.users.BackendProj.services.UserService;
 
-@CrossOrigin(origins="https://usermanagement-react-frontend.herokuapp.com")
+@CrossOrigin(origins="https://app-withreact.herokuapp.com")
 @RestController
 @RequestMapping("/api")
 public class UserController {
